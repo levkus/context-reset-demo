@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-const SomeContext = createContext({ value: 0, setValue: () => {} });
+const SomeContext = createContext({});
 
 export const SomeProvider = ({ children }) => {
   const [value, setValue] = useState(0);
