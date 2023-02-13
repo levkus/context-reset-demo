@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useSomeContext } from "../store/SomeContext";
 
 export const PageOneScreen = () => {
-  const { value, setValue, increment } = useSomeContext();
+  const { value, increment } = useSomeContext();
 
   return (
     <div>
